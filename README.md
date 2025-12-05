@@ -1,5 +1,5 @@
 # Real-Time I²C Sensor Data Acquisition and Visualization  
-### Hybrid Embedded Data Processing Framework (C Backend + Python GUI)
+### Hybrid Embedded Data Processing Framework 
 
 ## Overview
 This project demonstrates a **hybrid embedded data processing system** that combines:
@@ -10,12 +10,13 @@ It simulates **I²C sensor readings** (temperature and humidity), transfers data
 
 
 #Features
-✅ Real-time sensor data simulation using sine/cosine patterns  
-✅ Multithreaded backend written in C (POSIX threads)  
-✅ IPC via UNIX domain sockets for data exchange  
-✅ SQLite database logging  
-✅ PyQt5 GUI visualization with Matplotlib  
-✅ Modular architecture — replace simulated sensors with real I²C easily  
+
+Real-time sensor data simulation using sine/cosine patterns  
+Multithreaded backend written in C (POSIX threads)  
+IPC via UNIX domain sockets for data exchange  
+SQLite database logging  
+PyQt5 GUI visualization with Matplotlib  
+Modular architecture — replace simulated sensors with real I²C easily  
 
 
 **Build and Run**
