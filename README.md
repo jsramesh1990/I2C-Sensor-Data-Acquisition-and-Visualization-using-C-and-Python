@@ -9,7 +9,7 @@ This project demonstrates a **hybrid embedded data processing system** that comb
 It simulates **I²C sensor readings** (temperature and humidity), transfers data to the GUI using **UNIX domain sockets**, and visualizes live graphs.
 
 
-#Features
+**Features**
 
 Real-time sensor data simulation using sine/cosine patterns  
 Multithreaded backend written in C (POSIX threads)  
