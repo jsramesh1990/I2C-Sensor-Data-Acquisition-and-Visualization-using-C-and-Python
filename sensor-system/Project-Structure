@@ -1,0 +1,36 @@
+sensor-system/
+├── src/
+│   ├── backend/
+│   │   ├── main.c              # Main backend entry point
+│   │   ├── sensor_sim.c        # I²C sensor simulation
+│   │   ├── database.c          # SQLite database operations
+│   │   ├── ipc_socket.c        # Unix socket communication
+│   │   ├── threading.c         # POSIX thread management
+│   │   └── utils.c             # Utility functions
+│   └── gui/
+│       ├── gui.py              # PyQt5 main window
+│       ├── plot_widget.py      # Matplotlib plotting widget
+│       ├── socket_client.py    # Unix socket client
+│       └── data_processor.py   # Data processing logic
+├── include/
+│   └── backend/
+│       ├── sensor_sim.h
+│       ├── database.h
+│       ├── ipc_socket.h
+│       └── threading.h
+├── scripts/
+│   ├── install_deps.sh        # Dependency installer
+│   ├── start_gui.sh           # GUI launcher
+│   ├── start_backend.sh       # Backend launcher
+│   └── test_connection.sh     # Connection tester
+├── data/
+│   └── sensor_data.db         # SQLite database (created at runtime)
+├── docs/
+│   ├── architecture.md        # System architecture
+│   └── api_reference.md       # API documentation
+├── tests/
+│   ├── test_backend.c         # Backend unit tests
+│   └── test_gui.py            # GUI unit tests
+├── Makefile                   # Build configuration
+├── requirements.txt           # Python dependencies
+└── README.md                  # This file
