@@ -32,5 +32,5 @@ sensor-system/
 │   ├── test_backend.c         # Backend unit tests
 │   └── test_gui.py            # GUI unit tests
 ├── Makefile                   # Build configuration
-├── requirements.txt           # Python dependencies
-└── README.md                  # This file
+└── requirements.txt           # Python dependencies
+
