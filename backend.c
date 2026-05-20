@@ -1,5 +1,4 @@
 /*
- * backend.c
  * 
  * Reads data from I2C (or simulator), stores to SQLite, and sends to GUI via Unix socket.
  */
