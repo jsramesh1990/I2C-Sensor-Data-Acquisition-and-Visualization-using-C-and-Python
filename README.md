@@ -84,7 +84,6 @@ graph TB
 ##  Prerequisites
 
 ### System Requirements
-![Minimum Requirements](https://img.shields.io/badge/Requirements- -lightgrey?style=flat-square)
 
 - **OS**: Linux (Ubuntu/Debian recommended) or Windows Subsystem for Linux (WSL2)
 - **CPU**: x86-64 or ARM64 processor
